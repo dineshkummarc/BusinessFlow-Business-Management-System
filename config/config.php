@@ -30,7 +30,7 @@ define('DB_CHARSET', 'utf8mb4');
 // ---- Site info ----
 define('SITE_NAME', 'BMS | Business Management System');
 define('SITE_SHORT_NAME', 'BMS');
-define('SITE_URL', 'http://localhost/bms');
+define('SITE_URL', 'http://localhost/http://localhost/BusinessFlow-Business-Management-System/');
 
 // ---- Base path so links work the same whether a page lives in the
 //      project root (index.php) or in a sub-folder (dashboard/index.php) ----
@@ -57,7 +57,7 @@ unset($projectRoot, $docRoot, $normalizedRoot, $basePath);
 
 // ---- Developer / footer contact info ----
 // TODO: Replace these placeholders with the real details you provide.
-define('DEV_NAME', 'Rana Umar Draz');
+# define('DEV_NAME', 'Rana Umar Draz');
 // TODO: Replace these with your real profile URLs and contact email.
 define('DEV_NAME', 'Rana Umar Draz');
 define('DEV_LINKEDIN', 'https://www.linkedin.com/in/rana-umar-draz-95951733b/');
