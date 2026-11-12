@@ -21,7 +21,7 @@ if (session_status() === PHP_SESSION_NONE) {
 // project to a different machine, update DB_PORT to match that
 // environment's MySQL/MariaDB port (3306 is the standard default).
 define('DB_HOST', '127.0.0.1');
-define('DB_PORT', '3307');
+define('DB_PORT', '3306');
 define('DB_NAME', 'bms_db');
 define('DB_USER', 'root');
 define('DB_PASS', '');
